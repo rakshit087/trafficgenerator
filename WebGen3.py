@@ -6,8 +6,8 @@ from stem.control import Controller
 import requests
 from fake_useragent import UserAgent
 
-address = input("Enter the Web Address of your Site")
-views = int(input("\033[92m How many views you want: \033[00m"))
+address = input("Enter the Web Address of your Site: ")
+views = int(input("How many views you want: "))
 
 
 def renew_connection():
@@ -35,7 +35,7 @@ def visit():
         session = tor_session()
         session.get(address, headers=header)
         time.sleep(10)
-        print(num)
+        print(num+1)
         if (num) % 10 ==0:
             renew_connection()
 
