@@ -1,4 +1,4 @@
-# trafficgenerator
+# TrafficGenPy
 Just a small Python Script to increase page-views on your blog. Tested on Blogspot Blogs.  
 I am working on a Docker implementation but for now there are some requirements to run the script.
 
