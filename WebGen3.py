@@ -46,5 +46,5 @@ def visit():
             print("Done")
             sys.exit(0)
 
-
-visit()
+if __name__ == "__main__":
+    visit()
